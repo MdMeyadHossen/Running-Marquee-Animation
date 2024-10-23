@@ -1,0 +1,41 @@
+/* * @Copyright 2024, All rights reserved.
+* @author: Md Meyad Hossen, https://mdmeyadhossen.com */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.author {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+.author h1 {
+  font-size: 100px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.scrolling-text {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.scrolling-text .rail {
+  display: flex;
+}
+.scrolling-text .rail h4 {
+  white-space: nowrap;
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 1em;
+  margin: 0 2rem 0 0;
+  color: #ffffff;
+}
